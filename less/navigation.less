@@ -1,7 +1,6 @@
-// Navigation Styles here
+// Navigation Styles 
 
-@smoothgrey: #c0c0c0;
-@mineshaft: #373737;
+
 
 .nav-container {
     max-width: 800px;
@@ -17,6 +16,10 @@
         justify-content: space-between;
         align-items: center;
         border-bottom: 2px dashed #C0C0C0;
+
+        @media @mobile {
+            flex-direction: column;
+        }
     }
 
     a {
