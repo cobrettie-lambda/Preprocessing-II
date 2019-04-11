@@ -136,9 +136,6 @@ html,
 body {
   font-family: 'Roboto', sans-serif;
 }
-header {
-  border-bottom: 2px dashed #C0C0C0;
-}
 h1,
 h2,
 h3,
@@ -173,6 +170,7 @@ img {
 }
 .nav-container {
   max-width: 800px;
+  width: 100%;
   margin: 0 auto;
 }
 .nav-container nav {
@@ -182,6 +180,7 @@ img {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 2px dashed #C0C0C0;
 }
 .nav-container a {
   color: #373737;
@@ -218,6 +217,15 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home .heading-content {
+  border-bottom: 2px dashed #c0c0c0;
+}
+.home .heading-content img {
+  padding-bottom: 25px;
+}
+.home .heading-content p {
+  padding-bottom: 20px;
 }
 .home .content-section {
   margin: 30px 0;
