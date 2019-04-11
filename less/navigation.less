@@ -1,24 +1,51 @@
 // Navigation Styles here
 
+@smoothgrey: #c0c0c0;
+@mineshaft: #373737;
+
 .nav-container {
+    max-width: 800px;
+    margin: 0 auto;
 
     nav {
-        // width: 100%;
+        width: 100%;
         display: flex;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         flex-direction: row;
+        justify-content: space-between;
         align-items: center;
-        border-bottom: 2px dashed #C0C0C0;
+
+    }
+
+    a {
+        color: @mineshaft;
+        text-decoration: none;
+    }
+
+    a:hover {
+        transition-duration: .4s;
+        font-size: 1.8rem;
+        color: @smoothgrey;
+        text-decoration: underline;
     }
 
     h1 {
-        padding: 2.5% 0 2.5% 0;
+        padding: 2.5% 0 2.5% 0%;
     }
 
     ul {
         display: flex;
         flex-direction: row;
+        flex-wrap: nowrap;
+    }
 
+    li {
+        font-size: 1.6rem;
+        padding: 0 2rem;
+    }
+
+    li:last-child {
+        padding-right: 0;
     }
 }
 
