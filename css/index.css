@@ -168,6 +168,20 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.nav-container nav {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.nav-container h1 {
+  padding: 2.5% 0 2.5% 0;
+}
+.nav-container ul {
+  display: flex;
+  flex-direction: row;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
